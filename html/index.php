@@ -1,19 +1,43 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package teacher
- */
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Сайт ДШИ №1 г.Шумерля</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
 
-get_header();
-?>
+<!--- HEADERS --->
+
+
+<div class="headers">
+    <div class="slider">
+                <div class="gg">
+                    <img src="img/DSC_0165.jpg" alt="">
+                </div>
+
+                <div class="gg">
+                    <img src="img/IMG-b8d7f8a6f6fe26567ee7a5a49bb697b0-V.jpg" alt="">
+                </div>
+            
+
+                <div class="gg">
+                    <img src="img/IMG-53d055b73821fa7c796a3ea151035462-V.jpg" alt="">
+                </div>
+            
+
+                <div class="gg">
+                    <img src="img/hd_33.jpg" alt="">
+                </div>
+           
+    </div>
+</div>
+
+
 <!--- PAGE --->
 
 
@@ -32,7 +56,7 @@ get_header();
 
 <div class="direct">
 <p class="dir">Директор</p>
-<img src="<?php echo bloginfo('template_url'); ?>/img/director.png" alt="">
+<img src="img/director.png" alt="">
 <p class="dir1">Суркова</p>
 <p class="dir1">Ольга Вячеславовна</p>
 </div>
@@ -93,10 +117,10 @@ get_header();
 </ul>
 </div>
 <div class="banners1">
-<img src="<?php echo bloginfo('template_url'); ?>/img/pub_otchet.png" class="poslanie">
-<img src="<?php echo bloginfo('template_url'); ?>/img/priem-v-1-klass.png" class="poslanie2">
-<img src="<?php echo bloginfo('template_url'); ?>/img/obr_anketa.png" class="poslanie3">
-<img src="<?php echo bloginfo('template_url'); ?>/img/uchastie_v_konkursah.png" class="poslanie4">
+<img src="img/pub_otchet.png" class="poslanie">
+<img src="img/priem-v-1-klass.png" class="poslanie2">
+<img src="img/obr_anketa.png" class="poslanie3">
+<img src="img/uchastie_v_konkursah.png" class="poslanie4">
 
 </div>
 
@@ -104,7 +128,7 @@ get_header();
 
 
 <div class="news">
-<img src="<?php echo bloginfo('template_url'); ?>/img/22_tl.png">
+<img src="img/22_tl.png">
 <div class="news1">
 <p class="n1"><b>Новости</b></p>
 <a href="#"><p class="n2"><u><b>Солисты ДШИ №1 –победители Всероссийского конкурса «Полосаты слон»</u></b></p></a>
@@ -202,24 +226,24 @@ get_header();
 	<iframe width="221" height="193" src="https://www.youtube.com/embed/kDDcjlzNViQ" frameborder="0" allowfullscreen>
 </iframe>
 </div>
-<img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_1.png" class="poslanie">
-<img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_2.png" class="poslanie2">
-<img src="<?php echo bloginfo('template_url'); ?>/img/f_zakon_ob_obr.png" class="poslanie3">
-<img src="<?php echo bloginfo('template_url'); ?>/img/ukaz2024.jpg" class="poslanie4">
-<img src="<?php echo bloginfo('template_url'); ?>/img/stop_narkotiki.png" class="poslanie5">
-<img src="<?php echo bloginfo('template_url'); ?>/img/anti_terror.png" class="poslanie6">
-<img src="<?php echo bloginfo('template_url'); ?>/img/stop_korrupcia.png" class="poslanie7">
-<img src="<?php echo bloginfo('template_url'); ?>/img/dor_bez.png" class="poslanie8">
-<img src="<?php echo bloginfo('template_url'); ?>/img/bez_shkola.png" class="poslanie9">
-<img src="<?php echo bloginfo('template_url'); ?>/img/pub22032018.jpg" class="poslanie10">
-<img src="<?php echo bloginfo('template_url'); ?>/img/Virtual.jpg" class="poslanie11">
-<img src="<?php echo bloginfo('template_url'); ?>/img/videoo.jpg" class="poslanie12">
-<img src="<?php echo bloginfo('template_url'); ?>/img/ban23082018.jpg" class="poslanie13">
-<img src="<?php echo bloginfo('template_url'); ?>/img/navigator.png" class="poslanie14">
-<img src="<?php echo bloginfo('template_url'); ?>/img/banteatr.jpg" class="poslanie15">
-<img src="<?php echo bloginfo('template_url'); ?>/img/cult.jpg" class="poslanie16">
-<img src="<?php echo bloginfo('template_url'); ?>/img/banner_muzei.png" class="poslanie17">
-<img src="<?php echo bloginfo('template_url'); ?>/img/50_shkol_1.png" class="poslanie18">
+<img src="img/poslanie_1.png" class="poslanie">
+<img src="img/poslanie_2.png" class="poslanie2">
+<img src="img/f_zakon_ob_obr.png" class="poslanie3">
+<img src="img/ukaz2024.jpg" class="poslanie4">
+<img src="img/stop_narkotiki.png" class="poslanie5">
+<img src="img/anti_terror.png" class="poslanie6">
+<img src="img/stop_korrupcia.png" class="poslanie7">
+<img src="img/dor_bez.png" class="poslanie8">
+<img src="img/bez_shkola.png" class="poslanie9">
+<img src="img/pub22032018.jpg" class="poslanie10">
+<img src="img/Virtual.jpg" class="poslanie11">
+<img src="img/videoo.jpg" class="poslanie12">
+<img src="img/ban23082018.jpg" class="poslanie13">
+<img src="img/navigator.png" class="poslanie14">
+<img src="img/banteatr.jpg" class="poslanie15">
+<img src="img/cult.jpg" class="poslanie16">
+<img src="img/banner_muzei.png" class="poslanie17">
+<img src="img/50_shkol_1.png" class="poslanie18">
 <div class="veds">
 <iframe width="221" height="193" src="https://www.youtube.com/embed/d5PuEwb-LpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="b1">
@@ -234,7 +258,16 @@ get_header();
 </div>
 </div>
 </div>
+<footer>
+	
 
-<?php
-/**get_sidebar();*/
-get_footer();
+
+
+</footer>
+<script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

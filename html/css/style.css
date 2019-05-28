@@ -1,0 +1,376 @@
+body{
+	margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+}
+li{
+    list-style-type: none;
+}
+ a { 
+    text-decoration: none; 
+   } 
+.headers{
+    background-image: url(../img/Screenshot_3.png);
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.page{
+    background-color: #FFEFBF;
+    width: 1200px;
+    margin: 0 auto;
+    height: 2548px;
+    clear: both; 
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.direct{
+	width: 220px;
+	height: 262px;
+	background-color: #800000;
+	margin-left: 99px;
+	margin-top: 2px;
+	background-position: center center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+.direct img{
+	margin-top: -15px;
+}
+.scrip{
+	background-image: url(../img/11.png);
+	height: 500px;
+	width: 99px;
+	position: absolute;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+.dir{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 16px;
+	color: white;
+	line-height: 15.1px;
+}
+.dir1{
+	line-height: 0px;
+    text-align: center;
+	font-family: Calibri;
+	font-size: 16px;
+	margin-top: 4px;
+	color: white;
+}
+.news{
+	background-position: center center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    background-color: white;	
+    width: 612px;
+    margin: -251px auto 0px 337px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.5);
+    height: 2515px;
+    border-radius: 4px;
+}
+.news1{
+	position: absolute;
+	margin-left: 42px;
+	width: 507px;
+}
+.n1{
+	color: #C00000;
+	font-size: 16px;
+	padding: 5px 0px;
+	font-family: "Calibri";
+}
+.n2{
+    color: #253A58;
+    font-size: 16px;
+    font-family: "Calibri";
+    margin-block-end: -0.5em;
+}
+.n3{
+	color: #808080;
+	font-size: 15px;
+	font-family: "Calibri";
+}
+.n4{
+	color: #808080;
+	font-size: 13.51px;
+	font-family: "Calibri";
+	line-height: 0px;
+}
+.news img{
+	margin: -8px 0px 0px -7px;
+    position: absolute;
+}
+.vid{
+	margin-top: -253px;
+    padding: 0px 15px;
+    float: right;
+}
+.banners{
+	width: 21%;
+    float: right;
+    margin-top: -2264px;
+}
+.banners1{
+    width: 21%;
+    float: left;
+    position: absolute;
+    margin: 592px 83px;
+}
+.poslanie{
+    margin: -44px 16px;
+}
+.poslanie2{
+    padding: 42px 16px;
+}
+.poslanie3{
+	float: right;
+    margin: -44px 16px;
+}
+.poslanie4{
+    padding: 34px 16px;
+}
+.poslanie5{
+    float: right;
+    margin: -36px 16px;
+}
+.poslanie6{
+    float: right;
+    margin: 37px 16px;
+}
+.poslanie7{
+    float: right;
+    margin: -36px 16px;
+}
+.poslanie8{
+    float: right;
+    margin: 37px 16px;
+}
+.poslanie9{
+    float: right;
+    margin: -36px 16px;
+}
+.poslanie10{
+    float: right;
+    margin: 38px 16px;
+}
+.poslanie11{
+    float: right;
+    margin: -35px 16px;
+}
+.poslanie12{
+    float: right;
+    margin: 38px 16px;
+}
+.poslanie13{
+    float: right;
+    margin: -35px 16px;
+}
+.poslanie14{
+    float: right;
+    margin: 24px 16px;
+}
+.poslanie15{
+    float: right;
+    margin: -21px 16px;
+}
+.poslanie16{
+    float: right;
+    margin: 24px 16px;
+}
+.poslanie17{
+    float: right;
+    margin: -21px 16px;
+}
+.poslanie18{
+    float: right;
+    margin: 24px 16px;
+}
+.veds{
+	margin-left: 15px;
+}
+.b2{
+	font-size: 20px;
+}
+.b3{
+	font-size: 20px;
+	color: #375ABF;
+}
+footer{
+	background-color: #800000;
+	background-image: url(../img/bottom.png);
+	height: 150px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+.menu{
+	position: absolute;
+    margin: -2px 59px;
+}
+.me0{
+	width: 220px;
+	margin-top: -13px;
+	height: 46px;
+	background-color: #D98F09;
+	text-align: center;
+	cursor: pointer;
+}
+.me0:hover{
+	background-color: #940000;
+}
+.me1:hover{
+	background-color: #940000;
+}
+.me1{
+	width: 220px;
+	margin-top: -13px;
+	height: 46px;
+	background-color: #800000;
+	text-align: center;
+	cursor: pointer;
+}
+.men1{
+	font-size: 14px;
+	color: white;
+	font-family: "Calibri";
+    padding: 14px;
+        height: 46px;
+}
+.men2{
+    font-size: 14px;
+    color: white;
+    font-family: "Calibri";
+    margin-left: -8px;
+    position: relative;
+    width: 232px;
+    padding: 6px 1px;
+}
+
+
+ 
+
+ 
+
+ 
+.menu li .submenu{
+    position: absolute;
+    list-style: none;
+    z-index: 99;
+    text-align: center;
+    top: 15px;
+    font-size: 15px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 261px;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: 56px;
+    max-height:0px;
+    overflow:hidden;
+}
+ 
+.menu li:hover .submenu{
+    max-height:600px;
+}
+ 
+.menu li .submenu li{
+    background-color:#800000;
+    border-bottom:1px solid #888;
+}
+ 
+.menuli .submenu li:last-child{
+    border-bottom:none;
+}
+ 
+.menu li .submenu li a{
+    padding:5px 12px;
+    color:#fff;
+    display:block;
+}
+ 
+.menu li .submenu li:hover{
+    background-color: #940000;
+}
+ 
+.menu li .submenu li:first-child{
+    margin-top:25px;
+    position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+.menu li .submenu1{
+    position: absolute;
+    list-style: none;
+    z-index: 99;
+    text-align: center;
+    top: 15px;
+    font-size: 15px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 261px;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: 56px;
+    max-height:0px;
+    overflow:hidden;
+}
+ 
+.menu li:hover .submenu1{
+    max-height:600px;
+}
+ 
+.menu li .submenu1 li{
+    background-color:#800000;
+    border-bottom:1px solid #888;
+}
+ 
+.menuli .submenu1 li:last-child{
+    border-bottom:none;
+}
+ 
+.menu li .submenu1 li a{
+    padding:5px 12px;
+    color:#fff;
+    display:block;
+}
+ 
+.menu li .submenu1 li:hover{
+    background-color: #940000;
+}
+ 
+.menu li .submenu1 li:first-child{
+    margin-top:120px;
+    position:relative;
+}
+
+.slick-slide {
+   height:326px;
+   width: 448px;
+   padding: 62px 0px 0px 723px;
+   -ms-user-select: none;
+}
+
+.slick-slide img {
+   height:326px;
+   width: 448px;
+}

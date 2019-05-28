@@ -120,7 +120,48 @@ add_action( 'widgets_init', 'teacher_widgets_init' );
  * Enqueue scripts and styles.
  */
 function teacher_scripts() {
+	
+	/* style of system */
+	
+	
 	wp_enqueue_style( 'teacher-style', get_stylesheet_uri() );
+	
+	/* main style */
+	
+	wp_enqueue_style( 'main-style', get_template_directory_uri(). '/css/style.css' );
+	
+	
+	wp_enqueue_style( 'all-style', get_template_directory_uri(). '/css/all.css' );
+	
+	wp_enqueue_style( 'slik-style', get_template_directory_uri(). '/slick/slick-theme.css' );
+	
+	wp_enqueue_style( 'slikthems-style', get_template_directory_uri(). '/slick/slick.css' );
+	
+	/*main script */
+	
+	/*
+	wp_enqueue_script( 'main-Jquery', 'http://yastatic.net/jquery/2.1.3/jquery.min.js', array(), '28052019', true );
+	
+	
+	
+	wp_enqueue_script( 'main-Jquery111', '//code.jquery.com/jquery-1.11.0.min.js', array(), '28052019', true );
+	*/
+	
+	wp_enqueue_script( 'jquery1110', get_template_directory_uri() . '/js/jquery111.min.js', array(), '28052019', true );
+	
+	wp_enqueue_script( 'jquery213', get_template_directory_uri() . '/js/jquery.min.js', array(), '28052019', true );
+	
+	
+	wp_enqueue_script( 'main-Jquery-migrate', get_template_directory_uri() . '/js/jquery-migrate-1.4.1.js', array(), '28052019', true );
+	
+	
+	wp_enqueue_script( 'slick', get_template_directory_uri() . '/slick/slick.min.js', array('jquery213'), '28052019', true );
+	
+	wp_enqueue_script( 'main-script', get_template_directory_uri() . '/js/script.js', array(), '28052019', true );
+	
+	/* scripts of system */
+	
+	
 
 	wp_enqueue_script( 'teacher-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
