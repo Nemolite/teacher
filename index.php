@@ -102,11 +102,28 @@ get_header();
 
 <!--- NEWS --->
 
-
 <div class="news">
 <img src="<?php echo bloginfo('template_url'); ?>/img/22_tl.png">
 <div class="news1">
 <p class="n1"><b>Новости</b></p>
+
+
+
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+ <a href="<?php the_permalink() /* URL записи */ ?>"><p class="n2"><u><b><?php echo the_title(); ?></u></b></p></a>
+ <p class="n3"><?php the_content('Читать далее...'); ?></p>
+  
+<?php endwhile; ?>
+<!-- post navigation -->
+<?php else: ?>
+<!-- no posts found -->
+<?php endif; ?>
+
+
+
+
+
+
 <a href="#"><p class="n2"><u><b>Солисты ДШИ №1 –победители Всероссийского конкурса «Полосаты слон»</u></b></p></a>
 <p class="n3">20-21 апреля 2019 года в г. Чебоксары проходил IV Всероссийский вокально-хореографический конкурс «Полосатый слон».</p>
 <p class="n4">Опубликовано Сутягина И.В. - 22/4/2019 16:36:00</p>
