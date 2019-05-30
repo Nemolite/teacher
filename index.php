@@ -14,91 +14,9 @@
 
 get_header();
 ?>
-<!--- PAGE --->
 
+<?php get_sidebar( 'left' ); ?>
 
-<div class="page">
-
-
-<!--- SCRIPKA --->
-
-
-	<div class="scrip">
-	</div>
-
-
-<!--- DIRECTOR --->
-
-
-<div class="direct">
-<p class="dir">Директор</p>
-<img src="<?php echo bloginfo('template_url'); ?>/img/director.png" alt="">
-<p class="dir1">Суркова</p>
-<p class="dir1">Ольга Вячеславовна</p>
-</div>
-
-
-<!--- MENU --->
-
-
-<div class="menu">
-<ul style="text-align: center;">
-	<a href=""><li class="me0"><p class="men1">Главная</p></li></a>
-	<li class="me1"><p class="men2">Указ Президента Российской Федерации</p></li>
-	<li class="me1"><p class="men2">Сведения об образовательной организации <i class="fas fa-caret-right" style="position: absolute;
-    margin: -6px 0px 0px 61px;
-"></i></p>
-
-
-<!--- SUBMENU --->
-
-
-	 <ul class="submenu">
-            	<li class="me1"><p class="men1">Основные сведения</p></li>
-	            <li class="me1"><p class="men2">Структура и органы управления образовательной организацией</p></li>
-	            <li class="me1"><p class="men1">Образование</p></li>
-	            <li class="me1"><p class="men1">Образовательные требования</p></li>
-	            <li class="me1"><p class="men2">Руководство. Педагогический состав</p></li>
-	            <li class="me1"><p class="men2">Материально-техническое обеспечение</p></li>
-	            <li class="me1"><p class="men2">Стипендии и иные виды материальной поддержки</p></li>
-	            <li class="me1"><p class="men2">Финансово-хозяйственная деятельность</p></li>
-	            <li class="me1"><p class="men2">Вакантные места для приема (перевода)</p></li>
-	            <li class="me1"><p class="men1">Обучение лиц с ОВЗ</p></li>
-	            <li class="me1"><p class="men1">Индивидуальная работа</p></li>
-        </ul>
-    </li>
-	<li class="me1"><p class="men1">История школы</p></li>
-	<li class="me1"><p class="men1">Направления <i class="fas fa-caret-right" style="position:absolute; margin: 2px 0px 0px 60px;
-"></i></p>
-
-
-<!--- SUBMENU --->
-
-
-     <ul class="submenu1">
-            	<li class="me1"><p class="men1">Музыкальное исполнительство</p></li>
-	            <li class="me1"><p class="men1">Хоровое пение</p></li>
-	            <li class="me1"><p class="men1">Изобразительное искусство</p></li>
-	            <li class="me1"><p class="men1">Театральное искусство</p></li>
-	            <li class="me1"><p class="men1">Подготовка детей к обучению в школе</p></li>
-        </ul>
-    </li>
-	<li class="me1"><p class="men1">Для поступающих</p></li>
-	<li class="me1"><p class="men1">Профориентация</p></li>
-	<li class="me1"><p class="men1">Вакансии</p></li>
-	<li class="me1"><p class="men1">Новости</p></li>
-	<li class="me1"><p style="padding: 6px;"class="men1">Отчет о результатах самообследования</p></li>
-	<li class="me1"><p class="men1">Муниципальное задание</p></li>
-	<li class="me1"><p class="men1">Гостевая книга</p></li>
-</ul>
-</div>
-<div class="banners1">
-<img src="<?php echo bloginfo('template_url'); ?>/img/pub_otchet.png" class="poslanie">
-<img src="<?php echo bloginfo('template_url'); ?>/img/priem-v-1-klass.png" class="poslanie2">
-<img src="<?php echo bloginfo('template_url'); ?>/img/obr_anketa.png" class="poslanie3">
-<img src="<?php echo bloginfo('template_url'); ?>/img/uchastie_v_konkursah.png" class="poslanie4">
-
-</div>
 
 <!--- NEWS --->
 
@@ -109,9 +27,24 @@ get_header();
 
 
 
+
+
+
+
+
+
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
  <a href="<?php the_permalink() /* URL записи */ ?>"><p class="n2"><u><b><?php echo the_title(); ?></u></b></p></a>
- <p class="n3"><?php the_content('Читать далее...'); ?></p>
+
+ <div class="n3" id="fix-n3"><?php the_content(); ?></div>
+ 
+  
+				<?php
+				teacher_posted_on();
+				teacher_posted_by();
+				?>
+		
   
 <?php endwhile; ?>
 <!-- post navigation -->
@@ -119,11 +52,7 @@ get_header();
 <!-- no posts found -->
 <?php endif; ?>
 
-
-
-
-
-
+<!---
 <a href="#"><p class="n2"><u><b>Солисты ДШИ №1 –победители Всероссийского конкурса «Полосаты слон»</u></b></p></a>
 <p class="n3">20-21 апреля 2019 года в г. Чебоксары проходил IV Всероссийский вокально-хореографический конкурс «Полосатый слон».</p>
 <p class="n4">Опубликовано Сутягина И.В. - 22/4/2019 16:36:00</p>
@@ -207,48 +136,19 @@ get_header();
 <a href="#"><p class="n2"><u><b>Состоялся Республиканский этап всероссийского конкурса юных чтецов «Живая классика»</u></b></p></a>
 <p class="n3">Во время игры активизируется мыслительная деятельность, которая помогает решению познавательных задач. 15 апреля в школе искусств в рамках недели изобразительного и театрального искусства прошла школьная викторина по изобразительному искусству «Юный искусствовед».</p>
 <p class="n4">Опубликовано Суркова О.В. - 10/4/2019 10:35:00</p>
+-->
 	</div>
 </div>
 
 
-<!--- BANNERS --->
 
 
-<div class="banners">
-	<div class="vid">
-	<iframe width="221" height="193" src="https://www.youtube.com/embed/kDDcjlzNViQ" frameborder="0" allowfullscreen>
-</iframe>
-</div>
-<img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_1.png" class="poslanie">
-<img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_2.png" class="poslanie2">
-<img src="<?php echo bloginfo('template_url'); ?>/img/f_zakon_ob_obr.png" class="poslanie3">
-<img src="<?php echo bloginfo('template_url'); ?>/img/ukaz2024.jpg" class="poslanie4">
-<img src="<?php echo bloginfo('template_url'); ?>/img/stop_narkotiki.png" class="poslanie5">
-<img src="<?php echo bloginfo('template_url'); ?>/img/anti_terror.png" class="poslanie6">
-<img src="<?php echo bloginfo('template_url'); ?>/img/stop_korrupcia.png" class="poslanie7">
-<img src="<?php echo bloginfo('template_url'); ?>/img/dor_bez.png" class="poslanie8">
-<img src="<?php echo bloginfo('template_url'); ?>/img/bez_shkola.png" class="poslanie9">
-<img src="<?php echo bloginfo('template_url'); ?>/img/pub22032018.jpg" class="poslanie10">
-<img src="<?php echo bloginfo('template_url'); ?>/img/Virtual.jpg" class="poslanie11">
-<img src="<?php echo bloginfo('template_url'); ?>/img/videoo.jpg" class="poslanie12">
-<img src="<?php echo bloginfo('template_url'); ?>/img/ban23082018.jpg" class="poslanie13">
-<img src="<?php echo bloginfo('template_url'); ?>/img/navigator.png" class="poslanie14">
-<img src="<?php echo bloginfo('template_url'); ?>/img/banteatr.jpg" class="poslanie15">
-<img src="<?php echo bloginfo('template_url'); ?>/img/cult.jpg" class="poslanie16">
-<img src="<?php echo bloginfo('template_url'); ?>/img/banner_muzei.png" class="poslanie17">
-<img src="<?php echo bloginfo('template_url'); ?>/img/50_shkol_1.png" class="poslanie18">
-<div class="veds">
-<iframe width="221" height="193" src="https://www.youtube.com/embed/d5PuEwb-LpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="b1">
-<p class="b2">Контактная информация</p>
-<p class="b2">Наш адрес:</p>
-<p class="b3">429120, г. Шумерля,   
-ул. Урукова, д. 29</p>
-<p class="b2">Тел: </p><p class="b3">8 (83536) 2-42-91</p>
-<p class="b2">Факс: </p><p class="b3">  8 (83536) 2-99-68</p>
-<p class="b2">E-Mail: </p><p class="b3"> gshum-dshi@yandex.ru</p>
-	</div>
-</div>
+<?php 
+get_sidebar();
+?>
+
+
+
 </div>
 </div>
 

@@ -15,10 +15,16 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<!-- левый сайтбар -->
+<?php get_sidebar( 'left' ); ?>
+<!-- завершеие левого сайтбара-->
 
-		<?php
+<div class="news">
+<img src="<?php echo bloginfo('template_url'); ?>/img/22_tl.png">
+<div class="news1">
+
+
+<?php
 		while ( have_posts() ) :
 			the_post();
 
@@ -30,11 +36,17 @@ get_header();
 			endif;
 
 		endwhile; // End of the loop.
-		?>
+?>
+</div>
+</div>		
+		
+<!-- правый сайтбар с банерами -->
+<?php 
+get_sidebar();
+?>
+<!-- завершение правого сайтбара с банерами-->
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+
 get_footer();

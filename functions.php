@@ -128,7 +128,7 @@ function teacher_scripts() {
 	
 	/* main style */
 	
-	wp_enqueue_style( 'main-style', get_template_directory_uri(). '/css/style.css' );
+	wp_enqueue_style( 'my-style', get_template_directory_uri(). '/css/my-style.css' );
 	
 	
 	wp_enqueue_style( 'all-style', get_template_directory_uri(). '/css/all.css' );

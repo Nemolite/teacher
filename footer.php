@@ -11,9 +11,13 @@
 
 ?>
 
-<footer>
+<div class="main-footer">
 
-</footer>
+</div>
+
+
+
+
 
 
 
