@@ -9,8 +9,8 @@
 	<iframe width="221" height="193" src="https://www.youtube.com/embed/kDDcjlzNViQ" frameborder="0" allowfullscreen>
 </iframe>
 </div>
-<img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_1.png" class="poslanie">
-<img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_2.png" class="poslanie2">
+<a href="http://kremlin.ru/events/president/news/59863" target="_blanck"><img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_1.png" class="poslanie"></a>
+<a href="http://gov.cap.ru/SiteMap.aspx?id=2799000&gov_id=49" target="_blanck"><img src="<?php echo bloginfo('template_url'); ?>/img/poslanie_2.png" class="poslanie2"></a>
 <img src="<?php echo bloginfo('template_url'); ?>/img/f_zakon_ob_obr.png" class="poslanie3">
 <img src="<?php echo bloginfo('template_url'); ?>/img/ukaz2024.jpg" class="poslanie4">
 <img src="<?php echo bloginfo('template_url'); ?>/img/stop_narkotiki.png" class="poslanie5">

@@ -17,7 +17,7 @@
 
 <div class="menu">
 <ul style="text-align: center;">
-	<a href=""><li class="me0"><p class="men1">Главная</p></li></a>
+	<a href="http://teacher.uxp.ru"><li class="me0"><p class="men1">Главная</p></li></a>
 	<li class="me1"><p class="men2">Указ Президента Российской Федерации</p></li>
 	<li class="me1"><p class="men2">Сведения об образовательной организации <i class="fas fa-caret-right" style="position: absolute;
     margin: -6px 0px 0px 61px;
@@ -28,17 +28,17 @@
 
 
 	 <ul class="submenu">
-            	<li class="me1"><p class="men1">Основные сведения</p></li>
-	            <li class="me1"><p class="men2">Структура и органы управления образовательной организацией</p></li>
-	            <li class="me1"><p class="men1">Образование</p></li>
-	            <li class="me1"><p class="men1">Образовательные требования</p></li>
-	            <li class="me1"><p class="men2">Руководство. Педагогический состав</p></li>
-	            <li class="me1"><p class="men2">Материально-техническое обеспечение</p></li>
-	            <li class="me1"><p class="men2">Стипендии и иные виды материальной поддержки</p></li>
-	            <li class="me1"><p class="men2">Финансово-хозяйственная деятельность</p></li>
-	            <li class="me1"><p class="men2">Вакантные места для приема (перевода)</p></li>
-	            <li class="me1"><p class="men1">Обучение лиц с ОВЗ</p></li>
-	            <li class="me1"><p class="men1">Индивидуальная работа</p></li>
+            	<a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men1">Основные сведения</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men2">Структура и органы управления образовательной организацией</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men1">Образование</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men1">Образовательные требования</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men2">Руководство. Педагогический состав</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men2">Материально-техническое обеспечение</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men2">Стипендии и иные виды материальной поддержки</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men2">Финансово-хозяйственная деятельность</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men2">Вакантные места для приема (перевода)</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men1">Обучение лиц с ОВЗ</p></li></a>
+	            <a href="http://teacher.uxp.ru/основные-сведения/"><li class="me1"><p class="men1">Индивидуальная работа</p></li></a>
         </ul>
     </li>
 	<li class="me1"><p class="men1">История школы</p></li>

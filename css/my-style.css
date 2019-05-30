@@ -317,7 +317,7 @@ footer{
 }
  
 .menu li .submenu li:first-child{
-    margin-top:25px;
+    
     position:relative;
 }
 
@@ -399,5 +399,10 @@ footer{
     font-size: 15px;
     margin-bottom: 5px;
 	
+}
+
+.fotbanner{
+    float: left;
+    margin: 45px 5px;
 }
 	

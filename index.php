@@ -37,7 +37,7 @@ get_header();
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
  <a href="<?php the_permalink() /* URL записи */ ?>"><p class="n2"><u><b><?php echo the_title(); ?></u></b></p></a>
 
- <div class="n3" id="fix-n3"><?php the_content(); ?></div>
+ <div class="n3" id="fix-n3"><?php the_content('Читать далее...'); ?></div>
  
   
 				<?php
